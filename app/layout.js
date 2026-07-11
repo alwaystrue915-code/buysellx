@@ -1,4 +1,4 @@
 import './globals.css';
 import './refinements.css';
-export const metadata={title:'Buy Sell App',description:'Buy and sell near you',icons:{icon:'/linkpay.png'}};
+export const metadata={title:'Buy Sell App - Trusted Rummy, Slots & Gaming Apps Directory',description:'Find verified real-money gaming apps. Compare sign-up bonuses, commissions & withdrawal limits. Daily updated listings of Rummy, Slots, Poker and more.',keywords:'buy sell app, rummy apps, slots, online gaming, real money games, bonus, commission, trusted apps',openGraph:{title:'Buy Sell App - Trusted Gaming Apps Directory',description:'Find verified real-money gaming apps with best bonuses.',url:'https://buysellapp.net/',siteName:'Buy Sell App',type:'website',image:'/linkpay.png'},twitter:{card:'summary_large_image',title:'Buy Sell App',description:'Verified gaming apps directory'},icons:{icon:'/linkpay.png'}};
 export default function RootLayout({children}){return <html lang="en"><body>{children}</body></html>}

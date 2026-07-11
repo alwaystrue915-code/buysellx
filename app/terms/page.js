@@ -1,6 +1,6 @@
 import '../globals.css';
 import '../refinements.css';
-export const metadata = { title: 'Terms & Conditions - Buy Sell App', description: 'Terms and conditions for Buy Sell App' };
+export const metadata = { title: 'Terms & Conditions - Buy Sell App', description: 'Terms and conditions for using Buy Sell App directory and listing platform.', openGraph: { title: 'Terms & Conditions - Buy Sell App', url: 'https://buysellapp.net/terms' } };
 export default function Terms() {
   return (
     <main style={{ padding: '40px 32px 60px', maxWidth: '863px', margin: 'auto', background: '#fff', lineHeight: 1.8, fontSize: '16px', color: '#222' }}>

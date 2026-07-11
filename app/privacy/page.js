@@ -1,6 +1,6 @@
 import '../globals.css';
 import '../refinements.css';
-export const metadata = { title: 'Privacy Policy - Buy Sell App', description: 'Privacy policy for Buy Sell App' };
+export const metadata = { title: 'Privacy Policy - Buy Sell App', description: 'Read our privacy policy to understand how Buy Sell App collects, uses and protects your personal information.', openGraph: { title: 'Privacy Policy - Buy Sell App', url: 'https://buysellapp.net/privacy' } };
 export default function Privacy() {
   return (
     <main style={{ padding: '40px 32px 60px', maxWidth: '863px', margin: 'auto', background: '#fff', lineHeight: 1.8, fontSize: '16px', color: '#222' }}>

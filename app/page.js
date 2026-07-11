@@ -64,6 +64,7 @@ const daily = [
   ["UonoHub", "Daily Use", "₹400", "₹100", "UHUB", "#16a085", "https://h5.youuono.com/?uid=93945318", "/uonohub.jpg", "4+2"],
   ["WDPay", "Daily Use", "₹210", "₹100", "WDPAY", "#2980b9", "https://market.earnrupee.in/download/luodiye.html?invite=gNSQQm", "/wdpay.jpg", "4.1%"],
   ["Shaktipay", "Daily Use", "₹200", "₹100", "SHAKTI", "#d35400", "https://shaktipay.app/#/?invite=aox01H", "/shaktipay.jpg", "3.8%"],
+  ["AlphaPay", "Daily Use", "₹118", "₹100", "ALPHA", "#e84393", "https://alphad.net/#/?invite=J8pKnx", "/alphapay.jpg", "3.8%"],
 ];
 const high = [
   ["BoPay", "Bonus", "₹1600", "₹20,000", "BOPAY", "#8B0000", "https://store.richpay.info/#/rs/srbsN4LVG5", "/bopay.jpg", "", "Profit", "Transaction"],
@@ -73,6 +74,8 @@ const high = [
   ["TivraPay", "Bonus", "₹450", "₹4,000", "TIVRAPAY", "#e67e22", "https://zxcvwe.wiki/#/rs/PrZTIGlEyg", "/tivrapay.jpg", "", "Profit", "Transaction"],
   ["YayaPay", "Bonus", "₹300", "₹5,000", "YAYAPAY", "#27ae60", "https://refer.yavip.top/#/rs/vLahrqSeX7", "/yayapay.jpg", "", "Profit", "Transaction"],
   ["ZipPay", "Bonus", "₹750", "₹8,000", "ZIPPAY", "#f39c12", "https://web.zippay.wiki/#/rs/D76Q07xysU", "/zippay.jpg", "", "Profit", "Transaction"],
+  ["AlexPay", "Bonus", "₹400", "₹5,000", "ALEXPAY", "#34495e", "https://refer.alexpay.top/#/rs/RwGmfvVo4W", "/alexpay.jpg", "", "Profit", "Transaction"],
+  ["TTPay", "Bonus", "₹220", "₹2,000", "TTPAY", "#7f8c8d", "https://refer.ttpay.club/#/rs/jH3o3gRhHN", "/ttpay.jpg", "", "Profit", "Transaction"],
 ];
 function Header() {
   const [open, setOpen] = useState(false);
@@ -117,8 +120,8 @@ function Hero() {
   );
 }
 const topBonusApps = [
-  { rank: 2, name: "LinkPay", image: "/linkpay.png", url: "https://mobile.linkpulsex.com/#/pages/auth/register?invite=i4H0Vv" },
-  { rank: 1, name: "Shaktipay", image: "/shaktipay.jpg", url: "https://shaktipay.app/#/?invite=aox01H" },
+  { rank: 1, name: "LinkPay", image: "/linkpay.png", url: "https://mobile.linkpulsex.com/#/pages/auth/register?invite=i4H0Vv" },
+  { rank: 2, name: "Shaktipay", image: "/shaktipay.jpg", url: "https://shaktipay.app/#/?invite=aox01H" },
   { rank: 3, name: "DDPay", image: "/ddpay.png", url: "https://dd-pay.net/#/?invite=Dcgv02" },
 ];
 function TopBonus() {
